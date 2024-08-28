@@ -125,15 +125,60 @@
 }
 
 .second-float-childer {
-  width: 800px;
-  height: 200px;
-  font-size: 20px;
   float: left;
 }
 
 .second-float-child {
-  float: left;
+  float: right;
+}
+
+.second-float-child div {
   width: 400px;
   height: 133.333px;
-  font-size: 20px;
+}
+
+.second-float-childer div {
+  width: 800px;
+  height: 200px;
+}
+
+.three-float {
+  background-color: blue;
+}
+
+.three-float div {
+  outline: 2px solid black;
+}
+
+.three-float-f {
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+
+.three-float-c {
+  float: right;
+}
+
+.three-float-c div {
+  width: 800px;
+  height: 200px;
+}
+
+.three-float-h {
+  float: left;
+}
+
+.three-float-h div {
+  width: 400px;
+  height: 200px;
+}
+
+.three-float-g {
+  float: right;
+}
+
+.three-float-g div {
+  width: 400px;
+  height: 100px;
 }
