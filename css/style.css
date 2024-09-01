@@ -182,3 +182,52 @@
   width: 400px;
   height: 100px;
 }
+
+.first-flex {
+  display: flex;
+  background-color: yellowgreen;
+}
+
+
+.first-flex div,
+.second-flex div,
+.three-flex div {
+  border: 2px solid #000;
+}
+
+.first-flex-g,
+.three-flex-q {
+  width: 400px;
+  height: 400px;
+}
+
+.second-flex {
+  display: flex;
+  background-color: aqua;
+}
+
+.second-flex-c,
+.three-flex-e {
+  width: 800px;
+  height: 200px;
+}
+
+.second-flex-f {
+  width: 400px;
+  height: 133.333px;
+}
+
+.three-flex {
+  display: flex;
+  background-color: crimson;
+}
+
+.three-flex-r {
+  width: 400px;
+  height: 100px;
+}
+
+.three-flex-f {
+  width: 400px;
+  height: 200px;
+}
